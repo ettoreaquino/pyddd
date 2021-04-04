@@ -1,17 +1,17 @@
 Python DDD
 ==============
 
-`pyddd` is a template, which aims to prive basic scafolding for creating domain driven
-based back ends with Poetry, Falcon and Docker.
+`pyddd` is a template, which aims to prive basic scaffolding for creating domain
+driven back-ends with Poetry, Falcon and Docker.
 
 It is very important to mention that DDD is not always necessary. But when it comes
-to creating a properly structured back-end, Domain Driven Design is the way to go and
-glueing the basic components of Python project can be very tedious, specially considering
-tests and mocking databases.
+to creating a well structured back-end, Domain Driven Design is the way to go and
+glueing the basic components of a Python project can be very tedious, specially
+considering tests and databases.
 
 Basic Components
 -----------------
-A set of frameworks and tools are used to make easiers the tedious tasks involved
+A set of frameworks and tools are used to make easier the tedious tasks involved
 in testing, packaging, and exposing endpoints.
 
 Poetry_
@@ -26,8 +26,8 @@ concept of being as objective as possible.
 
 Docker_
 ^^^^^^^^^^^^^^^^^
-Docker allow us to dockerize our app from the beginning, helping decouple infrastructure
-and make integration tests easier.
+Docker allow us to containerize our app from the beginning, helping decouple
+infrastructure and make integration tests easier.
 
 Running
 -----------------
@@ -44,7 +44,7 @@ Run the project using docker to make sure everything is in place and configured:
     make all
 
 This command calls the Makefile command, which in turn encapsulates a sequence of
-commands that will end up running the tests and stoping the container.
+commands that will end up running the tests and stopping the container.
 
 
 .. _Poetry: https://python-poetry.org/
